@@ -1,0 +1,184 @@
+/*color #f99e1a;*/
+
+/*BASIC SET UP*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: "Raleway", sans-serif;
+  background-color: #223040;
+  color: #555;
+}
+
+/*HEADER*/
+header {
+  background-image: url(/logo-hero.1529acbd.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+button {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.5em;
+  width: 25em;
+  border-radius: 1.5em;
+  margin-top: 45em;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-color: #555;
+  background-color: #f99e1a;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+  color: rgba(15, 14, 14, 0.781);
+}
+button:hover {
+  background-color: #f9a01ab6;
+  transition-timing-function: ease-out;
+  transition: 0.5s;
+  color: rgba(39, 38, 38, 0.911);
+}
+.main-nav {
+  border-bottom: transparent;
+}
+.options {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.options li {
+  display: block;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0.7em;
+}
+.options li a {
+  color: white;
+  text-decoration: none;
+}
+
+.options li a:hover {
+  color: rgb(241, 139, 56);
+  text-decoration: none;
+}
+/*SECTION 1 HEROES ASSAULT*/
+.hero-assasin,
+.hero-tank,
+.hero-support {
+  background-color: #425974f8;
+}
+
+.hero-class {
+  background-color: #5f7d8d;
+  padding: 1.5em;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #d68a18;
+}
+.thumbnails {
+  display: flex;
+  justify-content: space-around;
+}
+
+.thumbnails img {
+  height: auto;
+  margin: 0 0.5em;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.tracer:hover {
+  transform: scale(1.05);
+  display: block;
+}
+
+.hero-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-description {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: black;
+}
+
+.hero-image {
+  min-width: 45em;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+/*SECTION 2 HEROES TANK*/
+
+.Dva:hover {
+  transform: scale(1.05);
+  display: block;
+}
+
+.hero-gallery-Dva {
+  display: flex;
+  align-items: center;
+}
+
+.Dva-picture {
+  width: 100%;
+}
+
+/*SECTION 2 HEROES SUPPORT*/
+
+.mercy:hover {
+  transform: scale(1.05);
+  display: block;
+}
+
+.hero-gallery mercy {
+  display: flex;
+  align-items: center;
+}
+
+.mercy-picture {
+  width: 100%;
+}
+
+/*SECTION 3 MAPS*/
+.maps {
+  background-color: #5f7d8d;
+  padding: 1.5em;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #d68a18;
+}
+
+.maps-description {
+  background-color: #5f7d8d;
+}
+
+table,
+th,
+td {
+  border: 0.1em solid rgb(142, 169, 177);
+}
+
+td {
+}
+
+.map-dorado img {
+  width: 70%;
+}
+
+
+/*# sourceMappingURL=/style.d71b696e.css.map */
