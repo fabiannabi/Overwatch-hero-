@@ -10,7 +10,7 @@
 body,
 html {
   font-family: "Raleway", sans-serif;
-  background-color: #223040;
+  background-color: #6f777e;
   color: #555;
 }
 
@@ -66,28 +66,23 @@ button:hover {
 }
 
 .options li a:hover {
-  color: rgb(241, 139, 56);
+  color: rgb(226, 157, 30);
   text-decoration: none;
 }
 /*SECTION 1 HEROES ASSAULT*/
-.hero-assasin,
-.hero-tank,
-.hero-support {
-  background-color: #425974f8;
-}
 
-.hero-class {
-  background-color: #5f7d8d;
+.hero-tittle {
+  background-color: #626d74;
   padding: 1.5em;
   text-align: center;
   font-size: 1.8em;
   font-weight: bold;
   text-transform: uppercase;
-  color: #d68a18;
+  color: #ac7b31;
 }
 .thumbnails {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .thumbnails img {
@@ -95,9 +90,13 @@ button:hover {
   margin: 0 0.5em;
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
-
+.hog:hover,
+.soldier:hover,
+.genji:hover,
+.Dva:hover,
+.mercy:hover,
 .tracer:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
   display: block;
 }
 
@@ -108,53 +107,26 @@ button:hover {
 }
 
 .hero-description {
-  font-size: 2em;
+  font-size: 1.8em;
   text-transform: uppercase;
   color: black;
+  text-align: justify;
+  padding: 2em;
 }
 
 .hero-image {
   min-width: 45em;
-  padding: 2em;
+  padding: 1.5em;
   display: flex;
   justify-content: center;
 }
 
-/*SECTION 2 HEROES TANK*/
-
-.Dva:hover {
-  transform: scale(1.05);
-  display: block;
-}
-
-.hero-gallery-Dva {
-  display: flex;
-  align-items: center;
-}
-
-.Dva-picture {
-  width: 100%;
-}
-
-/*SECTION 2 HEROES SUPPORT*/
-
-.mercy:hover {
-  transform: scale(1.05);
-  display: block;
-}
-
-.hero-gallery mercy {
-  display: flex;
-  align-items: center;
-}
-
-.mercy-picture {
-  width: 100%;
+.hero-picture {
+  max-width: 650px;
 }
 
 /*SECTION 3 MAPS*/
 .maps {
-  background-color: #5f7d8d;
   padding: 1.5em;
   text-align: center;
   font-size: 1.8em;
@@ -163,19 +135,80 @@ button:hover {
   color: #d68a18;
 }
 
-.maps-description {
-  background-color: #5f7d8d;
-}
-
-table,
-th,
-td {
-  border: 0.1em solid rgb(142, 169, 177);
-}
-
-td {
-}
-
 .map-dorado img {
   width: 70%;
+}
+
+select {
+  font-size: 1.5em;
+  background-color: #ece0cc;
+}
+input {
+  font-size: 1.5em;
+  background-color: #d68a18;
+  color: #223040;
+}
+
+.maps-input {
+  display: block;
+  justify-content: center;
+  margin: 1em 1em;
+}
+
+.map-image {
+  max-width: 1000px;
+}
+
+.maps-types {
+  padding: 1em;
+  display: flex;
+  color: black;
+  font-size: 1.8em;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.map-description {
+  margin: 0.5em;
+  width: 16%;
+}
+
+/*SECTION 3 League*/
+
+.league-teams {
+  margin-top: 1em;
+  font-size: 5em;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.shanghai,
+.fili,
+.fuel,
+.seoul,
+.outlaws {
+  max-width: 250px;
+}
+.shanghai:hover,
+.fili:hover,
+.fuel:hover,
+.seoul:hover,
+.outlaws:hover {
+  transform: scale(1.01);
+  display: block;
+}
+
+.team-logo {
+  max-width: 1000px;
+  margin-left: 0.5em;
+}
+
+.thumbnails-team {
+  display: flex;
+  justify-content: space-evenly;
+}
+.team-score {
+  width: 50%;
 }
